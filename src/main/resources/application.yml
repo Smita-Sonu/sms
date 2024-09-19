@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: sms
+
+  datasource:
+    url: jdbc:mysql://localhost/sb_july
+    username: root
+    password: root
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 1200
